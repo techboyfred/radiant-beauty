@@ -42,6 +42,6 @@ An e-commerce platform that sells skincare products like cleansers, moisturizers
   - Change email/phone number, password, or any other details
   - Add shipping and/or billing address
 
-- [ ] Add the main administrator directly from the SQL queries.
+- [x] Add the main administrator directly from the SQL queries.
 
 - [ ] Add an (empty?) home page screen that will be directed to by a successful login.
