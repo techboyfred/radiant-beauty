@@ -17,7 +17,7 @@ An e-commerce platform that sells skincare products like cleansers, moisturizers
 
 ## Deadlines
 
-### Week 1 (Saturday 15/08/2026)
+### Part 1 (Saturday 22/08/2026)
 
 - [ ] Register screen with these functionalities:
   - Register an account with these details: Name, Surname, Gender, DOB, Race, Phone number
