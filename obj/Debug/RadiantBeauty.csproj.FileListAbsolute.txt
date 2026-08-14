@@ -1,0 +1,17 @@
+C:\Projects\RadiantBeauty\bin\RadiantBeauty.dll.config
+C:\Projects\RadiantBeauty\bin\RadiantBeauty.dll
+C:\Projects\RadiantBeauty\bin\RadiantBeauty.pdb
+C:\Projects\RadiantBeauty\obj\Debug\RadiantBeauty.csproj.AssemblyReference.cache
+C:\Projects\RadiantBeauty\obj\Debug\RadiantBeauty.csproj.CoreCompileInputs.cache
+C:\Projects\RadiantBeauty\obj\Debug\RadiantBeauty.dll
+C:\Projects\RadiantBeauty\obj\Debug\RadiantBeauty.pdb
+C:\Projects\RadiantBeauty\bin\BCrypt-Net-Next.dll
+C:\Projects\RadiantBeauty\bin\System.Buffers.dll
+C:\Projects\RadiantBeauty\bin\System.Memory.dll
+C:\Projects\RadiantBeauty\bin\System.Numerics.Vectors.dll
+C:\Projects\RadiantBeauty\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Projects\RadiantBeauty\bin\System.Buffers.xml
+C:\Projects\RadiantBeauty\bin\System.Memory.xml
+C:\Projects\RadiantBeauty\bin\System.Numerics.Vectors.xml
+C:\Projects\RadiantBeauty\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Projects\RadiantBeauty\obj\Debug\RadiantBeauty.csproj.CopyComplete
