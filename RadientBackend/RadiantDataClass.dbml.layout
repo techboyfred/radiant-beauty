@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 17" name="RadiantDataClass">
+  <DataContextMoniker Name="/RadiantDataClassDataContext" />
+  <nestedChildShapes>
+    <classShape Id="5dd08e3a-1865-46bd-99df-c68e16983ee5" absoluteBounds="0.5, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/Administrator" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d72d58eb-ae01-4c01-9a54-1afaae358c13" absoluteBounds="0.515, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94435ba6-adf1-40ad-9d5c-2fb1cac97c84" absoluteBounds="0.625, 2.5, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/AppUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b3cdda5-d229-45b1-b8d4-2bfa83cfe14d" absoluteBounds="0.64000000000000012, 2.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5625 : 2.5); (1.5625 : 1.8862939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/AppUser/AppUser_Administrator" />
+      <nodes>
+        <classShapeMoniker Id="94435ba6-adf1-40ad-9d5c-2fb1cac97c84" />
+        <classShapeMoniker Id="5dd08e3a-1865-46bd-99df-c68e16983ee5" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f56d220f-b771-4fec-b2a5-e6a155cae3bb" absoluteBounds="5.375, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/BeautyProduct" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de317fe8-5dfe-43d1-8be1-43362b988bdc" absoluteBounds="5.39, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="569092ab-e1aa-42d0-86bd-a3ee087b7bbf" absoluteBounds="4.75, 3.375, 2, 1.3862939453125">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/BundleItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac9564fc-842c-47d0-950c-ebd0a4e4c362" absoluteBounds="4.765, 3.835, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.0625 : 2.84780110677083); (6.0625 : 3.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/BeautyProduct/BeautyProduct_BundleItem" />
+      <nodes>
+        <classShapeMoniker Id="f56d220f-b771-4fec-b2a5-e6a155cae3bb" />
+        <classShapeMoniker Id="569092ab-e1aa-42d0-86bd-a3ee087b7bbf" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="0af480fb-fdcb-4f34-97e2-30d1b5c5c05a" absoluteBounds="5.5, 5.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/BundlePackage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4e84023a-86ee-4d16-8714-a212ec3b4eeb" absoluteBounds="5.515, 5.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.125 : 5.5); (6.125 : 4.7612939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/BundlePackage/BundlePackage_BundleItem" />
+      <nodes>
+        <classShapeMoniker Id="0af480fb-fdcb-4f34-97e2-30d1b5c5c05a" />
+        <classShapeMoniker Id="569092ab-e1aa-42d0-86bd-a3ee087b7bbf" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7d034c67-7b8c-4b21-bf41-ca07c9350673" absoluteBounds="0.5, 8.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/CustomerOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="308d08af-b635-4dd0-beb4-8665e034e2ce" absoluteBounds="0.51500000000000012, 8.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.5625 : 6.57851399739583); (1.5625 : 8.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/AppUser/AppUser_CustomerOrder" />
+      <nodes>
+        <classShapeMoniker Id="94435ba6-adf1-40ad-9d5c-2fb1cac97c84" />
+        <classShapeMoniker Id="7d034c67-7b8c-4b21-bf41-ca07c9350673" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7e2debb0-eb94-493c-af77-84db55f90469" absoluteBounds="5.375, 9.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/CustomerSkinCondition" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aa91a772-073e-455a-8afd-62544256cf8b" absoluteBounds="5.39, 10.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.59375 : 6.57851399739583); (2.59375 : 10.76849609375); (3.10416716666667 : 10.76849609375 : JumpStart); (3.27083383333333 : 10.76849609375 : JumpEnd); (3.41666941666667 : 10.76849609375 : JumpStart); (3.58333608333333 : 10.76849609375 : JumpEnd); (4.29166666666667 : 10.76849609375 : JumpStart); (4.45833333333333 : 10.76849609375 : JumpEnd); (4.54166666666667 : 10.76849609375 : JumpStart); (4.70833333333333 : 10.76849609375 : JumpEnd); (5.375 : 10.76849609375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/AppUser/AppUser_CustomerSkinCondition" />
+      <nodes>
+        <classShapeMoniker Id="94435ba6-adf1-40ad-9d5c-2fb1cac97c84" />
+        <classShapeMoniker Id="7e2debb0-eb94-493c-af77-84db55f90469" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="61c50452-fa84-4c93-8490-cbb145d2056e" absoluteBounds="5.875, 7.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/OrderItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c8cd25e9-1d8c-4fe6-bd52-36708a778a36" absoluteBounds="5.89, 7.9600000000000009, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 8.59375); (2.51041666666667 : 8.59375 : JumpStart); (2.67708333333333 : 8.59375 : JumpEnd); (3.10416716666667 : 8.59375 : JumpStart); (3.27083383333333 : 8.59375 : JumpEnd); (3.41666941666667 : 8.59375 : JumpStart); (3.58333608333333 : 8.59375 : JumpEnd); (4.29166666666667 : 8.59375 : JumpStart); (4.45833333333333 : 8.59375 : JumpEnd); (4.54166666666667 : 8.59375 : JumpStart); (4.70833333333333 : 8.59375 : JumpEnd); (5.875 : 8.59375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/CustomerOrder/CustomerOrder_OrderItem" />
+      <nodes>
+        <classShapeMoniker Id="7d034c67-7b8c-4b21-bf41-ca07c9350673" />
+        <classShapeMoniker Id="61c50452-fa84-4c93-8490-cbb145d2056e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.375 : 1.67390055338542); (7.71875 : 1.67390055338542); (7.71875 : 7.5)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/BeautyProduct/BeautyProduct_OrderItem" />
+      <nodes>
+        <classShapeMoniker Id="f56d220f-b771-4fec-b2a5-e6a155cae3bb" />
+        <classShapeMoniker Id="61c50452-fa84-4c93-8490-cbb145d2056e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="7e620f59-cf56-4684-a7e3-e1a8b359c9f2" absoluteBounds="1.75, 11.375, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/REVIEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07956495-cbfd-4898-be7e-3ca11b244ae8" absoluteBounds="1.7650000000000001, 11.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 4.53925699869792); (3.1875005 : 4.53925699869792); (3.1875005 : 11.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/AppUser/AppUser_REVIEW" />
+      <nodes>
+        <classShapeMoniker Id="94435ba6-adf1-40ad-9d5c-2fb1cac97c84" />
+        <classShapeMoniker Id="7e620f59-cf56-4684-a7e3-e1a8b359c9f2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 2.19314697265625); (3.50000275 : 2.19314697265625); (3.50000275 : 11.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/BeautyProduct/BeautyProduct_REVIEW" />
+      <nodes>
+        <classShapeMoniker Id="f56d220f-b771-4fec-b2a5-e6a155cae3bb" />
+        <classShapeMoniker Id="7e620f59-cf56-4684-a7e3-e1a8b359c9f2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="af6df113-99b4-4541-9cce-a893cdbb6fbb" absoluteBounds="2.125, 14.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/SkinCondition" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b38b8b7d-d322-4b86-9890-c8b8e83cb399" absoluteBounds="2.14, 15.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.96875 : 14.875); (3.96875 : 10.9499968033854); (4.29166666666667 : 10.9499968033854 : JumpStart); (4.45833333333333 : 10.9499968033854 : JumpEnd); (4.54166666666667 : 10.9499968033854 : JumpStart); (4.70833333333333 : 10.9499968033854 : JumpEnd); (5.375 : 10.9499968033854)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/SkinCondition/SkinCondition_CustomerSkinCondition" />
+      <nodes>
+        <classShapeMoniker Id="af6df113-99b4-4541-9cce-a893cdbb6fbb" />
+        <classShapeMoniker Id="7e2debb0-eb94-493c-af77-84db55f90469" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="504eb5ee-0f99-43b6-a23d-ef6f8428796f" absoluteBounds="5.5, 14.375, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/RadiantDataClassDataContext/UserAddress" />
+      <nestedChildShapes>
+        <elementListCompartment Id="edf0ea03-6688-489d-875f-6d7e03f8c1ec" absoluteBounds="5.515, 14.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 15.5489005533854); (4.375 : 15.5489005533854); (4.375 : 6.95351399739583); (3.58333608333333 : 6.95351399739583 : JumpStart); (3.41666941666667 : 6.95351399739583 : JumpEnd); (3.27083383333333 : 6.95351399739583 : JumpStart); (3.10416716666667 : 6.95351399739583 : JumpEnd); (2.67708333333333 : 6.95351399739583 : JumpStart); (2.51041666666667 : 6.95351399739583 : JumpEnd); (2.078125 : 6.95351399739583); (2.078125 : 6.57851399739583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/UserAddress/UserAddress_AppUser" />
+      <nodes>
+        <classShapeMoniker Id="504eb5ee-0f99-43b6-a23d-ef6f8428796f" />
+        <classShapeMoniker Id="94435ba6-adf1-40ad-9d5c-2fb1cac97c84" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 14.9306982766927); (4.625 : 14.9306982766927); (4.625 : 7.20351399739583); (4.45833333333333 : 7.20351399739583 : JumpStart); (4.29166666666667 : 7.20351399739583 : JumpEnd); (3.58333608333333 : 7.20351399739583 : JumpStart); (3.41666941666667 : 7.20351399739583 : JumpEnd); (3.27083383333333 : 7.20351399739583 : JumpStart); (3.10416716666667 : 7.20351399739583 : JumpEnd); (2.67708333333333 : 7.20351399739583 : JumpStart); (2.51041666666667 : 7.20351399739583 : JumpEnd); (1.64583333333333 : 7.20351399739583 : JumpStart); (1.47916666666667 : 7.20351399739583 : JumpEnd); (1.062498 : 7.20351399739583); (1.062498 : 6.57851399739583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/RadiantDataClassDataContext/UserAddress/UserAddress_AppUser1" />
+      <nodes>
+        <classShapeMoniker Id="504eb5ee-0f99-43b6-a23d-ef6f8428796f" />
+        <classShapeMoniker Id="94435ba6-adf1-40ad-9d5c-2fb1cac97c84" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
