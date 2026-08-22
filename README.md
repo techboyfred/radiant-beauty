@@ -19,17 +19,17 @@ An e-commerce platform that sells skincare products like cleansers, moisturizers
 
 ### Part 1 (Saturday 22/08/2026)
 
-- [ ] Register screen with these functionalities:
+- [x] Register screen with these functionalities:
   - Register an account with these details: Name, Surname, Gender, DOB, Race, Phone number
   - Verify password
   - Cannot use pre-existing email/phone number
-  - Verify email before successful account registration? (maybe add this to later deadlines)
+  - Verify email before successful account registration? (Not yet done)
 
-- [ ] Login screen with these functionalities:
-  - Login by email/phone number
-  - Login as administrator
-  - "Forgot Password" hypertext link to forgot password screen
-  - "Don't have an account yet? Register" hypertext link to the register screen
+- [x] Login screen with these functionalities:
+  - Login by email/phone number ( I thought phone number was for delivery ??)
+  - Login as administrator (Login page detects an admin/ a normal user) 
+  - "Forgot Password" hypertext link to forgot password screen (No screen yet)
+  - "Don't have an account yet? Register" hypertext link to the register screen 
 
 - [ ] Forgot password screen with these functionalities:
   - Use email only to locate account
@@ -44,4 +44,4 @@ An e-commerce platform that sells skincare products like cleansers, moisturizers
 
 - [x] Add the main administrator directly from the SQL queries.
 
-- [ ] Add an (empty?) home page screen that will be directed to by a successful login.
+- [x] Add an (empty?) home page screen that will be directed to by a successful login.
